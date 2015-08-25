@@ -14,6 +14,7 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [Vim](#vim)
 - [Node.js](#nodejs)
 - [JSHint](#jshint)
+- [Oh My Zsh](#ohmyzsh)
 
 ## System update
 
@@ -140,6 +141,46 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
     
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
     
+## Oh My Zsh
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+
+#### via curl
+
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+#### via wget
+
+`sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+
+## Using Oh My Zsh
+
+### Plugins
+
+Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+
+#### Enabling Plugins
+
+If you spot a plugin (or several) that you would like to use with Oh My Zsh, you will need to edit the `~/.zshrc` file. Once you open it with your favorite editor, you'll see a spot to list all the plugins that you'd like Oh My Zsh to load in initialization.
+
+For example, this line might begin to look like...
+
+```shell
+plugins=(git bundler osx rake ruby)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Sublime Text
 
 With the terminal, the text editor is a developer's most important tool. Everyone has their preferences, but unless you're a hardcore [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) user, a lot of people are going to tell you that [Sublime Text](http://www.sublimetext.com/) is currently the best one out there.
