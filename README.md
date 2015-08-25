@@ -157,7 +157,7 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 
 ### Plugins
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+Oh My Zsh comes with a load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -168,18 +168,6 @@ For example, this line might begin to look like...
 ```shell
 plugins=(git bundler osx rake ruby)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Sublime Text
 
