@@ -9,7 +9,6 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
-- [iTerm2](#iterm2)
 - [Git](#git)
 - [Sublime Text](#sublime-text)
 - [Vim](#vim)
